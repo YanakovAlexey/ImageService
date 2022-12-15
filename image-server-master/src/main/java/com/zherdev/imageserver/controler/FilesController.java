@@ -13,7 +13,7 @@ import java.io.IOException;
 @RestController("/")
 public class FilesController {
 
-    private static String BASE_BOOK_IMAGE_PATH = "C:\\Image\\";
+    private static String BASE_BOOK_IMAGE_PATH = "var\\FolderImage\\";
     private static String BASE_BOOK_FILE_PATH = "C:\\BookContent\\";
 
     @GetMapping(value = "/images/{fileName}")
